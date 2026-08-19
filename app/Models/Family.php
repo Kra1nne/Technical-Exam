@@ -7,5 +7,11 @@ use Illuminate\Database\Eloquent\Model;
 class Family extends Model
 {
     protected $table = 'family';
-    
+
+    protected $fillable = [
+        'name',
+        'relation',
+        'gender',
+        'dob',
+    ];
 }
